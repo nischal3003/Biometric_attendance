@@ -149,21 +149,9 @@ app_license = "mit"
 # ---------------
 
 scheduler_events = {
-	"all": [
-		"biometric_attendance.tasks.all"
-	],
-	"daily": [
-		"biometric_attendance.tasks.daily"
-	],
 	 "hourly": [
 		"biometric_attendance.biometric_sync.run_attendance_sync"
-	],
-	"weekly": [
-		"biometric_attendance.tasks.weekly"
-	],
-	"monthly": [
-		"biometric_attendance.tasks.monthly"
-	],
+	]
 }
 
 # Testing
